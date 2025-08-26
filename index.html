@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSustenta - Vida Consciente, Planeta Feliz</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <header class="bg-light">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand logo" href="./index.html">
+            <i class="fas fa-leaf"></i> EcoSustenta
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./src/pages/categoria.html"
+                  >Produtos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./src/pages/contato.html">Contato</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="#" class="nav-icon"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="banner-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#banner-carousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#banner-carousel"
+            data-bs-slide-to="1"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=2070"
+              class="d-block w-100"
+              alt="Banner Produtos Naturais"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Beleza Natural e Consciente</h5>
+              <p>
+                Descubra nossa linha de cosméticos veganos e livres de
+                crueldade.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=2070"
+              class="d-block w-100"
+              alt="Banner Moda Sustentável"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Moda que Respeita o Planeta</h5>
+              <p>Roupas feitas com tecidos orgânicos e reciclados.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#banner-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#banner-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </section>
+
+      <section class="container my-5">
+        <h2 class="section-title text-center mb-4">Novidades Sustentáveis</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100 product-card">
+              <img
+                src="https://lojaibyte.vteximg.com.br/arquivos/ids/421530-1200-1200/garrafa-termica-inox-1000-ml-com-tampo-azul-marinho-54408-gt-01-min.jpg?v=638367900906600000"
+                class="card-img-top"
+                alt="Garrafa Térmica"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Garrafa Térmica Inox</h5>
+                <p class="card-text price">R$ 89,90</p>
+                <a href="./src/pages/produto.html?id=1" class="btn btn-primary"
+                  >Ver Produto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 product-card">
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/891385/shampoo_em_barra_cabelos_cacheados_497_2_639b20f0018b6b362c358f788c6006ed.jpg"
+                class="card-img-top"
+                alt="Shampoo em Barra"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Shampoo em Barra Natural</h5>
+                <p class="card-text price">R$ 35,00</p>
+                <a href="./src/pages/produto.html?id=2" class="btn btn-primary"
+                  >Ver Produto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 product-card">
+              <img
+                src="https://cm3.com.br/wp-content/uploads/2022/03/SACOLA-ECOBAG-BRINDES-PERSONALIZADOS-CM3-SC536ML-1-1.jpg"
+                class="card-img-top"
+                alt="Ecobag de Algodão"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Ecobag de Algodão</h5>
+                <p class="card-text price">R$ 25,90</p>
+                <a href="./src/pages/produto.html?id=3" class="btn btn-primary"
+                  >Ver Produto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 product-card">
+              <img
+                src="https://media.istockphoto.com/id/1324847242/pt/foto/pair-of-white-leather-trainers-on-white-background.jpg?s=612x612&w=0&k=20&c=QAKet5DIxvi8_WEpwzF8WhzHrOyHHGipEthV5VF9zSs="
+                class="card-img-top"
+                alt="Tênis Reciclado"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Tênis de Material Reciclado</h5>
+                <p class="card-text price">R$ 249,90</p>
+                <a href="./src/pages/produto.html?id=4" class="btn btn-primary"
+                  >Ver Produto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="footer-title">
+              <i class="fas fa-leaf"></i> EcoSustenta
+            </h5>
+            <p>
+              Promovendo um estilo de vida consciente e um planeta mais feliz
+              através de produtos ecológicos.
+            </p>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="footer-title">Links Úteis</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Políticas da Loja</a></li>
+              <li><a href="#">Termos de Serviço</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="footer-title">Siga-nos</h5>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-3 footer-copy">
+          &copy; 2025 EcoSustenta. Todos os direitos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nome": "Garrafa Térmica Inox",
+        "preco": "R$ 89,90",
+        "descricao": "Mantenha suas bebidas na temperatura ideal com esta garrafa de aço inoxidável. Livre de BPA, durável e perfeita para o dia a dia, reduzindo o consumo de garrafas plásticas.",
+        "imagem": "https://lojaibyte.vteximg.com.br/arquivos/ids/421530-1200-1200/garrafa-termica-inox-1000-ml-com-tampo-azul-marinho-54408-gt-01-min.jpg?v=638367900906600000"
+    },
+    {
+        "id": 2,
+        "nome": "Shampoo em Barra Natural",
+        "preco": "R$ 35,00",
+        "descricao": "Uma alternativa sustentável aos shampoos líquidos. Feito com ingredientes naturais, vegano e sem embalagem plástica. Ótimo para o seu cabelo e para o planeta.",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/891385/shampoo_em_barra_cabelos_cacheados_497_2_639b20f0018b6b362c358f788c6006ed.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Ecobag de Algodão Orgânico",
+        "preco": "R$ 25,90",
+        "descricao": "Diga adeus às sacolas plásticas com esta ecobag resistente e estilosa, feita de 100% algodão orgânico. Perfeita para suas compras e para o uso diário.",
+        "imagem": "https://cm3.com.br/wp-content/uploads/2022/03/SACOLA-ECOBAG-BRINDES-PERSONALIZADOS-CM3-SC536ML-1-1.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Tênis de Material Reciclado",
+        "preco": "R$ 249,90",
+        "descricao": "Conforto e sustentabilidade para os seus pés. Este tênis é feito com tecidos de garrafas PET recicladas e solado de borracha natural.",
+        "imagem": "https://media.istockphoto.com/id/1324847242/pt/foto/pair-of-white-leather-trainers-on-white-background.jpg?s=612x612&w=0&k=20&c=QAKet5DIxvi8_WEpwzF8WhzHrOyHHGipEthV5VF9zSs="
+    }
+]
