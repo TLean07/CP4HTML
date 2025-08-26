@@ -43,22 +43,6 @@ O projeto demonstra o uso de JavaScript para manipular o DOM, buscando dados de 
 
 ---
 
-### 🖼️ Demonstração Visual
-
-**Página Inicial (Home)**
-*Com um carrossel de destaque e uma seção de "Novidades" carregada dinamicamente.*
-![Página Principal](https://i.imgur.com/G34iP6h.png)
-
-**Página de Categoria**
-*Exibe todos os produtos do JSON em um grid, ao lado de uma barra de filtros.*
-![Página de Categoria](https://i.imgur.com/lJ41hW0.png)
-
-**Página de Detalhes do Produto**
-*Template que é preenchido com as informações do produto selecionado.*
-![Página de Produto](https://i.imgur.com/k2H1z5F.png)
-
----
-
 ### 🚀 Tecnologias Utilizadas
 
 | Tecnologia | Descrição |
