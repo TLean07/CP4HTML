@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Linguagens-HTML5-orange.svg" alt="Linguagens">
   <img src="https://img.shields.io/badge/Linguagens-CSS3-blue.svg" alt="Linguagens">
-  <img src="https://img.shields.io/badge/Linguagens-JS-yellow.svg" alt="Linguagens">
+  <img src="https://img.shields.io/badge/Linguagens-JavaScript-yellow.svg" alt="Linguagens">
   <img src="https://img.shields.io/badge/Framework-Bootstrap5-blueviolet.svg" alt="Framework">
 </p>
 
